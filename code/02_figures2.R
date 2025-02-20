@@ -86,4 +86,4 @@ sex.plot = ggplot(data_figs, aes(x = sex, y = prop_log10, fill=sex)) +
 
 sex.plot
 
-# ggsave('figures/boxplot_propotion_by_sex.pdf', dpi = 300)
+ggsave('figures/boxplot_propotion_by_sex.pdf', dpi = 300)
